@@ -42,6 +42,7 @@ namespace ConsoleApp2
                 }
                 if (validip(fullIp1, fullIp2) == true)
                 {
+                    //Pass data to new class "Class1"
                     Class1.BuildList(fullIp1, fullIp2, ipRange1, ipRange2, baseIp);
                 }
                 else
