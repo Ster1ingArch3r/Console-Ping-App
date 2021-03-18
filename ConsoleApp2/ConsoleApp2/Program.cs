@@ -61,30 +61,6 @@ namespace ConsoleApp2
                 {
                     continue;
                 }
-
-                /*Console.WriteLine("Your Selected IP Range is " + fullIp1 + " through " + fullIp2 + ". Is this correct?");
-                string answer = Console.ReadLine();
-
-                //build list of all IPs in range 
-                int numIpRange1 = Convert.ToInt32(ipRange1);
-                int numIpRange2 = Convert.ToInt32(ipRange2);
-                List<string> ipList = new List<string>();
-                for (int i = 0; i <= (numIpRange2 - numIpRange1); i++)
-                {
-                    ipList.Add(baseIp + "." + (i + numIpRange1).ToString());
-
-                }
-                Console.WriteLine(string.Join(", \n", ipList));
-                Console.ReadLine();
-
-
-                */
-                /*if (answer == "yes")
-                {
-                    Ping p = new Ping();
-
-                }*/
-
             }
         }
     }
